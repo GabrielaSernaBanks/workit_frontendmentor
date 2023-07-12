@@ -1,0 +1,15 @@
+@import "./styles/partials/globals";
+@import "./styles/partials/mixins";
+@import "./styles/partials/variables";
+@import "./styles/partials/typography.scss";
+
+.nav{
+  background-color: $dark-blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.navLink{
+  color: aliceblue;
+}
