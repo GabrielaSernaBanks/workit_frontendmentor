@@ -2,16 +2,18 @@ import './Nav.scss';
 import Logo from '../assets/images/logo-light.svg'
 
 function Nav() {
-  return (
-    <div className="nav">
-      
-      <img src={Logo}></img>
-    
-      <h2 className='navLink'>
-        Apply for access
-      </h2>
-    </div>
-  );
+	return (
+		<>
+		<header>
+			<nav className='nav'>
+				<a className='nav__logo'><img src={Logo}></img></a>
+				<div className='nav__link'>
+					<p>Apply for access</p>
+				</div>
+			</nav>
+		</header>
+		</>
+	);
 }
 
 export default Nav;

@@ -6,10 +6,14 @@
 .nav{
   background-color: $dark-blue;
   display: flex;
-  justify-content: space-between;
-  padding: 0 5rem;
-}
+  height: 730px;
 
-.navLink{
-  color: aliceblue;
+  &__logo{
+    height: 20rem;
+  }
+
+  &__link{
+    color: $white;
+  }
+
 }
