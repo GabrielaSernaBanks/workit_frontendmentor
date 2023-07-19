@@ -3,17 +3,48 @@
 @import "./styles/partials/variables";
 @import "./styles/partials/typography.scss";
 
-.nav{
+.header{
   background-color: $dark-blue;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+}
+.nav{
   display: flex;
-  height: 730px;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 2rem 5rem;
+  height: 20rem;
 
   &__logo{
-    height: 20rem;
+    height: 1rem;
   }
 
   &__link{
     color: $white;
   }
 
+}
+
+.nav-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10rem;
+
+  &__text{
+    align-items: center;
+    color: $white;
+    font-family: Fraunces;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+
+  }
+
+  &__button{
+    width: 161px;
+    height: 61px;
+    background-color: $green;
+  }
 }
